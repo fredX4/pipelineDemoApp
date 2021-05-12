@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "pipelineDemoApp",
   "version": "1.0.0",
   "description": "Sample App for GCP CI/CD pipeline testing",
   "main": "index.js",
