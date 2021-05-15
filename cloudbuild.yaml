@@ -1,14 +1,14 @@
 steps:
 # Install dependencies
-- name: node:10.16.0
+- name: 'gcr.io/cloud-builders/npm'
   entrypoint: npm
   args: ['install']
 # Run tests
-- name: node:10.16.0
+- name: 'gcr.io/cloud-builders/npm'
   entrypoint: npm
   args: ['test']
 # Run custom commands
-- name: node:10.16.0
+- name: 'gcr.io/cloud-builders/npm'
   entrypoint: npm
   args: ['run', 'build']
   # build the container image
