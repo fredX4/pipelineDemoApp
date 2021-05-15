@@ -12,6 +12,5 @@ RUN npm install --only=production
 # Copy the local code to the container
 COPY . .
 
-
 # Start the service
 CMD npm start
