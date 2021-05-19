@@ -7,7 +7,7 @@ describe('test.js', () => {
                 it('responds with 200', (done) => {
                         request(app)
                         .get('/')
-                        .expect(200)
+                        .expect(201)
                         .end((e, res) => {
                                 should.not.exist(e);
                                 done();
