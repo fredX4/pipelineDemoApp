@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node .",
-    "test": "echo 'hello' && mocha test --exit",
+    "test": "mocha test --exit",
     "build": "mocha test --exit"
   },
   "author": "Freddy Jetty Johnson",
